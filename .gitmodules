@@ -1,6 +1,7 @@
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/hiszd/.dot-files-nvim
+	branch = main
 [submodule "fish"]
 	path = fish
 	url = https://github.com/hiszd/.dot-files-fish
