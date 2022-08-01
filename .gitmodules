@@ -5,3 +5,4 @@
 [submodule "fish"]
 	path = fish
 	url = https://github.com/hiszd/.dot-files-fish
+	branch = main
