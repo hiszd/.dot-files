@@ -5,7 +5,7 @@
 [submodule "fish"]
 	path = fish
 	url = https://github.com/hiszd/.dot-files-fish
-	branch = main
+	branch = master
 [submodule "bash"]
 	path = bash
 	url = https://github.com/hiszd/.dot-files-bash
