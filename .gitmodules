@@ -6,3 +6,7 @@
 	path = fish
 	url = https://github.com/hiszd/.dot-files-fish
 	branch = main
+[submodule "bash"]
+	path = bash
+	url = https://github.com/hiszd/.dot-files-bash
+	branch = main
