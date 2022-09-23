@@ -1,10 +1,11 @@
 # .dot-files
 
-### BASHRC MOVE
+## Setup
 
-To execute the .bashrc from ~/.config/bash/ you need to add the following to your /etc/bash.bashrc file:<br>
+To configure this on a new device run the following script:
 ```
-if [ -s "${XDG_CONFIG_HOME:-$HOME/.config}/bash/bashrc" ]; then
-    . "${XDG_CONFIG_HOME:-$HOME/.config}/bash/bashrc"
-fi
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+git clone --bare <git-repo-url> $HOME/.cfg
+config checkout
+config config --local status.showUntrackedFiles no
 ```
