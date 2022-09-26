@@ -1,25 +1,6 @@
-[submodule "nvim"]
-	path = nvim
-	url = https://github.com/hiszd/.dot-files-nvim
-	branch = main
-[submodule "fish"]
-	path = fish
-	url = https://github.com/hiszd/.dot-files-fish
-	branch = master
-[submodule "bash"]
-	path = bash
-	url = https://github.com/hiszd/.dot-files-bash
-	branch = main
-[submodule "tmux"]
-	path = tmux
-	url = https://github.com/hiszd/.dot-files-tmux
-	branch = master
 [submodule ".config/nvim"]
 	path = .config/nvim
 	url = https://github.com/hiszd/.dot-files-nvim
 [submodule ".config/fish"]
 	path = .config/fish
 	url = https://github.com/hiszd/.dot-files-fish
-[submodule ".config/tmux"]
-	path = .config/tmux
-	url = https://github.com/hiszd/.dot-files-tmux
