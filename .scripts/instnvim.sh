@@ -10,4 +10,7 @@ sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake c
 make CMAKE_BUILD_TYPE=RelWithDebInfo
 sudo make install
 
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+
 cd ~
