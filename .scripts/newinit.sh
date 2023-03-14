@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/fish
 
 git config --global user.email "hiszd1@gmail.com"
 git config --global user.name "Zion Koyl"
