@@ -7,3 +7,9 @@
 [submodule ".config/hypr"]
 	path = .config/hypr
 	url = https://github.com/hiszd/.dot-files-hypr
+[submodule "/home/zion/.config/kitty"]
+	path = /home/zion/.config/kitty
+	url = https://github.com/hiszd/.dot-files-kitty
+[submodule "/home/zion/.config/gtklock"]
+	path = /home/zion/.config/gtklock
+	url = https://github.com/hiszd/.dot-files-gtklock
