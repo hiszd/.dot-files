@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Name=CSI-FP01
+Exec=csi-rem 10.1.1.65
+Terminal=false
+Type=Application

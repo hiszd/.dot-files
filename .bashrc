@@ -195,6 +195,10 @@ alias tobash="sudo chsh $USER -s /bin/bash && echo 'Now log out.'"
 alias newcon="openvpn3 session-start --config "
 
 alias ttor="tmuxinator"
+
+alias rdep-dc01="rdesktop -u 'corp\administrator' -p ~ZqpMvgt5! 10.1.1.64"
+alias rdep-fp01="rdesktop -u 'corp\administrator' -p ~ZqpMvgt5! 10.1.1.65"
+
 . "$HOME/.cargo/env"
 
 eval "$(leader init)"
