@@ -9,3 +9,6 @@ config checkout
 config submodule init
 config submodule update
 config config --local status.showUntrackedFiles no
+
+./fontinit.sh
+./instnvim.sh
