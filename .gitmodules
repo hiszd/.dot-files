@@ -19,6 +19,6 @@
 [submodule ".config/eww"]
 	path = .config/eww
 	url = https://github.com/hiszd/.dot-files-eww
-[submodule "/home/zion/.config/tmuxinator"]
-	path = /home/zion/.config/tmuxinator
+[submodule ".config/tmuxinator"]
+	path = .config/tmuxinator
 	url = https://github.com/hiszd/.dot-files-tmuxinator
