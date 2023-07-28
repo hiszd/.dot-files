@@ -22,3 +22,6 @@
 [submodule ".config/tmuxinator"]
 	path = .config/tmuxinator
 	url = https://github.com/hiszd/.dot-files-tmuxinator
+[submodule ".config/hyprswitch"]
+	path = .config/hyprswitch
+	url = https://github.com/hiszd/.dot-files-hyprswitch
