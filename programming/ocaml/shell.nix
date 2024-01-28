@@ -4,21 +4,17 @@
     nativeBuildInputs = with pkgs; [
       pkg-config
       openssl
-      libevdev
-      rustup
       postgresql
-      llvmPackages.clangUseLLVM
-      llvmPackages.libllvm
-      llvmPackages.libclang
+      libev
+      libevdev
       cmake
     ];
     buildInputs = with pkgs; [
-      libpqxx
       systemd
       stdenv.cc.libc
     ];
     # why do we need to set the library path manually?
-    shellHook = ''
-      export LIBCLANG_PATH="${pkgs.llvmPackages.libclang.lib}/lib";
-    '';
+    # shellHook = ''
+    #   export LIBCLANG_PATH="${pkgs.llvmPackages.libclang.lib}/lib";
+    # '';
 }

@@ -5,15 +5,13 @@
       pkg-config
       openssl
       libevdev
-      rustup
       postgresql
-      llvmPackages.clangUseLLVM
-      llvmPackages.libllvm
-      llvmPackages.libclang
-      cmake
+      nodejs
+      nodePackages_latest.npm
+      bun
+      esbuild
     ];
     buildInputs = with pkgs; [
-      libpqxx
       systemd
       stdenv.cc.libc
     ];
