@@ -14,7 +14,7 @@
       stdenv.cc.libc
     ];
     # why do we need to set the library path manually?
-    # shellHook = ''
-    #   export LIBCLANG_PATH="${pkgs.llvmPackages.libclang.lib}/lib";
-    # '';
+    shellHook = ''
+      export XDG_RUNTIME_DIR="/run/user/$(id -u)";
+    '';
 }
